@@ -1,0 +1,211 @@
+    <!DOCTYPE html>
+    <html >
+    <head>
+        
+        <title>Document</title>
+        <style>
+            h1{
+                border: 5px solid palevioletred;
+                margin-top:200px;
+                margin-bottom:100px;
+                margin-left:500px;
+                margin-right:500px;
+                padding:50px;
+                background-color: chartreuse;
+                color: crimson;
+                text-align: center;
+            }
+            #flexs{
+                display:flex;
+                height: 250px;
+                width: 150px;
+                /*border: 5px solid purple;*/
+                margin: 10px;
+                padding: 10px;
+               
+            }
+            #flexs img{
+                border: 5px solid purple;
+                margin: 10px;
+                padding: 10px;
+                background-color: palevioletred;
+            }
+            .black{
+                background-color: black;
+                height: 50px;
+                width: 50px;
+                color: white;
+                
+            }
+            .white{
+                background-color: white;
+                height: 50px;
+                width: 50px;
+                color: black;
+                        
+            }
+            .chess{
+                display: grid;
+                grid-template-columns: auto auto auto auto auto auto auto auto;
+               gap: 0;
+                margin-left: 600px ;
+                grid-template-columns: repeat(8, 50px);
+                grid-template-rows: repeat(8, 50px);
+               border:5px solid black;
+               height: 400px;
+               width: 400px;
+               padding: 15px;
+               background-color:gray;
+            }
+            .black,.white{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .main{
+                display: grid;
+                gap:0px;
+                height: 200px;
+                width: 500px;
+                margin: 200px;
+                margin-left: 600px;
+                
+            }
+            .main>div{
+                border: 3px solid blueviolet;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+               
+                
+            }
+            #one{
+                grid-column:1/span 3 ;
+                
+                background-color: coral;
+            }
+            #two{
+              
+                grid-row:2/span 2 ;
+
+                background-color: cyan;
+            }
+
+            #five{
+                grid-column:2/ span 2 ;
+               
+                background-color: fuchsia;
+            }
+            #three{
+                background-color: greenyellow;
+            }
+            #four{
+                background-color: lime;
+            }
+        </style>
+    </head>
+    <body>
+       <h1>Welcome to the flower show!</h1>
+       <div id="flexs"> <img src="https://img.freepik.com/free-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_188544-8593.jpg">
+        <img src="https://img.freepik.com/free-photo/vibrant-colors-nature-close-up-wet-purple-daisy-generated-by-artificial-intellingence_25030-63819.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1721692800&semt=ais_user">
+        <img src="https://t4.ftcdn.net/jpg/05/57/29/25/360_F_557292539_2kXYz0frOcCGISoYEd2MNTmxyT0lYyOj.jpg">
+        <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/7/2022/05/23222947/clivia.jpg"></div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="chess">
+            
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+            
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                
+                
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+
+                
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+               
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div>
+                <div class="black">X</div>
+                <div class="white">O</div> 
+                <div class="black">X</div>
+                <div class="white">O</div> 
+                <div class="black">X</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="main">
+            <div id="one">1</div>
+            <div id="two">2</div>
+            <div id="three">3</div>
+            <div id="four">4</div>
+            <div id="five">5</div>
+        </div>
+
+    </body>
+
+    </html>
