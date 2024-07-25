@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Different view</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .box3,.box2,.box{
+            height: 250px;
+        }
+        .box3{
+            width:100%;
+            align-items: center;  
+        }
+        .box2{
+            width: 30%;
+        }
+        
+        .box{
+            width: 20%;   
+        }
+        @media screen and (max-width:1200px){
+            .box2{
+                width:60%;
+            }
+            .box{
+                width: 48%;
+            }
+        }
+        @media screen and (max-width:700px){
+            .box2{
+                width:95%;
+            }
+            .box{
+                width: 85%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box3" style="background-color:rgb(4, 170, 4);"></div>
+    <div class="box2" style="background-color:darkturquoise;"></div>
+    <div class="box2" style="background-color:darkturquoise;"></div>
+    <div class="box2" style="background-color:darkturquoise;"></div>
+    <div class="box" style="background-color:hotpink;"></div>
+    <div class="box" style="background-color:hotpink;"></div>
+    <div class="box" style="background-color:hotpink;"></div>
+    <div class="box" style="background-color:hotpink;"></div>
+    
+</div>
+</body>
+</html>

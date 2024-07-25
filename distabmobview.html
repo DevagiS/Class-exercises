@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Different view</title>
+    <style>
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        
+        
+        
+        }
+        .box{
+            width:20%;
+            height: 200px;
+            align-items: center;
+            
+            
+        }
+        @media screen and (max-width:1200px){
+            .box{
+                width:48%;
+            }
+        }
+        @media screen and (max-width:700px){
+            .box{
+                width:98%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="box" style="background-color:darkseagreen;"></div>
+    <div class="box" style="background-color:darkturquoise;"></div>
+    <div class="box" style="background-color:green;"></div>
+    <div class="box" style="background-color:hotpink;"></div>
+    
+</div>
+</body>
+</html>

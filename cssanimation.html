@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: lime;
+            animation-name: anime;
+            animation-duration: 15s;
+            animation-delay: 3s;
+            animation-direction: alternate;
+            animation-iteration-count: 2;
+            animation-timing-function: ease-in-out;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        @keyframes anime {
+            0%   {background-color:skyblue; left:0px; top:0px;}
+  25%  {background-color:hotpink; left:500px; top:0px;}
+  50%  {background-color:purple; left:500px; top:500px;}
+  75% {background-color:yellow; left:0px; top:500px;}
+   100% {background-color:royalblue; left:0px; top:0px;}
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

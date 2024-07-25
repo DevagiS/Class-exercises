@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My favorite bike</title>
+    <style>
+        #one {
+            border: 3px solid black;
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-between;
+            margin: 10px;
+        }
+
+        img {
+            height: 300px;
+            width: 500px;
+            padding: 10px;
+        }
+
+        #p {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+            margin-left: 20px; 
+        }
+
+        #two {
+            font-size: x-large;
+        }
+
+        @media (max-width: 790px) {
+            #one {
+                flex-direction: column; 
+                align-items: center; 
+                text-align: center; 
+            }
+
+            img {
+                width: 100%; 
+                height: auto;
+            }
+
+            #p {
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2>Royal Enfield - The King of bikes</h2>
+    <aside id="one">
+        <img src="https://bsmedia.business-standard.com/_media/bs/img/article/2023-07/11/full/1689070314-2921.jpg?im=FeatureCrop,size=(826,465)">
+        <div id="p">
+            <p id="two">Royal Enfield is a legendary motorcycle manufacturer with a rich heritage dating back to 1901, making it one of the oldest motorcycle brands still in production today. Originally established in England, the company is now headquartered in India, where it has become an iconic name in the motorcycling world. Known for their classic and robust design, Royal Enfield motorcycles like the Bullet, Classic, and Himalayan are celebrated for their timeless aesthetics and sturdy performance.
+
+                The brand has a loyal global following, attracting enthusiasts who appreciate the blend of vintage charm and modern reliability. Royal Enfield's motorcycles are often associated with adventure and exploration, thanks to their rugged build and versatility. Over the years, the company has successfully maintained its retro appeal while incorporating contemporary technology, ensuring that its bikes meet the demands of today's riders. With a strong community and a legacy of over a century, Royal Enfield continues to inspire a sense of freedom and nostalgia on two wheels.</p>
+         </div>
+    </aside>
+</body>
+</html>

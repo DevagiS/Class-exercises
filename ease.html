@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>   
+      #one{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        
+        transition-duration: 3s;
+        transition-property: transform;
+     }
+     #two{
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        
+        transition-duration: 3s;
+        transition-property: width;
+     }
+     #one:hover{
+        transform: rotate(180deg);
+      }
+      #two:hover{
+        width:450px;
+      }
+
+    </style>
+</head>
+<body>
+    <div id="two"></div><br>
+    <div id="one"></div><br>
+</body>
+</html>
